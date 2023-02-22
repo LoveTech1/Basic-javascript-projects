@@ -1,0 +1,15 @@
+.container-ex{
+    min-height: 100vh;
+    border: 2px solid white;
+}
+.small-container{
+    /* border: 2px solid purple; */
+    min-height: 40vh;
+}
+.hour,.second,.minute{
+    font-size: 4rem !important;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 3px;
+}
