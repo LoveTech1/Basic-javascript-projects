@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="title">
+          <h2 class="animate__animated animate__flip">Weather</h2>
+        </div>
+      </header>
+      <main>
+        <div class="form">
+          <input type="text" name="search" class="input" placeholder="Enter city/country" />
+          <button type="submit" class="find vibrate-1">Find</button>
+          <div class="message">
+            <p class="Message"></p>
+          </div>
+        </div>
+        <div class="information">
+            <div class="row-1">
+                <h3>City&nbsp;:&nbsp; </h3>
+                <!-- will get the data through api in js -->
+                <h3 id="city" class="left-align-css"></h3>
+            </div>
+            <div class="row-2">
+                <h3>Wind&nbsp;Speed&nbsp;:&nbsp; </h3>
+                <!-- will get the data through api in js -->
+                <h3 id="windSpeed" class="left-align-css"></h3>
+            </div>
+            <div class="row-3">
+                <h3>Min&nbsp;Temperature&nbsp;:&nbsp; </h3>
+                <!-- will get the data through api in js -->
+                <h3 id="min_temperature" class="left-align-css"></h3>
+            </div>
+            <div class="row-4">
+                <h3>Max&nbsp;Temperature&nbsp;:&nbsp;</h3>
+                <h3 id="max_temperature" class="left-align-css"></h3>
+            </div>
+            <div class="row-5">
+                <h3>Humidity&nbsp;:&nbsp; </h3>
+                <h3 id="humidity" class="left-align-css"></h3>
+            </div>
+            <div class="row-6">
+                <h3>Feels&nbsp;Like&nbsp;:&nbsp; </h3>
+                <h3 id="feels_like" class="left-align-css"></h3>
+            </div>
+        </div>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
