@@ -1,2 +1,2 @@
 # Basic-javascript-projects
-<h1>Intented for practice with Javascript</h1>
+<h1>Intended for practice with Javascript</h1>
